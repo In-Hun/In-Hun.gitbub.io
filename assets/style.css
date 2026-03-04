@@ -182,3 +182,15 @@ a:hover{text-decoration:underline}
   padding:10px 2px 0;
   text-align:center;
 }
+.btnlink{
+  font-size:12px;
+  padding:6px 10px;
+  border-radius:999px;
+  border:1px solid var(--line);
+  background:var(--bg);
+  text-decoration:none;
+}
+.btnlink:hover{
+  text-decoration:none;
+  filter:brightness(0.98);
+}
