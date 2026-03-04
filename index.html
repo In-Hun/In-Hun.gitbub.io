@@ -1,0 +1,211 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <meta name="description" content="Graduate Student Homepage" />
+  <title>Your Name | Homepage</title>
+  <link rel="stylesheet" href="assets/style.css" />
+</head>
+
+<body>
+  <a class="skip" href="#main">본문으로 바로가기</a>
+
+  <header class="topbar">
+    <div class="container topbar-inner">
+      <div class="brand">
+        <span class="brand-name">Your Name</span>
+        <span class="brand-sub">Graduate Student</span>
+      </div>
+
+      <nav class="nav">
+        <a href="#about">About</a>
+        <a href="#news">News</a>
+        <a href="#interests">Research</a>
+        <a href="#education">Education</a>
+        <a href="#publications">Publications</a>
+        <a href="#patents">Patents</a>
+        <a href="#awards">Awards</a>
+        <a href="#experience">Experience</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main" class="container layout">
+    <!-- Sidebar -->
+    <aside class="sidebar">
+      <div class="card profile">
+        <img class="avatar" src="assets/profile.jpg" alt="Your profile photo" />
+        <div class="profile-text">
+          <h1 class="h1">Your Name</h1>
+          <p class="muted">
+            M.S./Ph.D. Student<br />
+            Department / Lab<br />
+            University, Country
+          </p>
+
+          <div class="links">
+            <a href="mailto:you@example.com">Email</a>
+            <a href="https://github.com/your-id" target="_blank" rel="noreferrer">GitHub</a>
+            <a href="#" target="_blank" rel="noreferrer">Google Scholar</a>
+            <a href="#" target="_blank" rel="noreferrer">ORCID</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="card small">
+        <div class="small-title">Quick Info</div>
+        <ul class="bullets">
+          <li>Research: Side-Channel Analysis, PQC, …</li>
+          <li>Location: Seoul, Korea</li>
+          <li>CV: <a href="#" target="_blank" rel="noreferrer">PDF</a></li>
+        </ul>
+      </div>
+    </aside>
+
+    <!-- Content -->
+    <section class="content">
+      <!-- About Me -->
+      <section id="about" class="card section">
+        <h2>About Me</h2>
+        <p>
+          여기에 자기소개를 작성하세요. (예: 소속, 관심 연구 분야, 간단한 목표/키워드)
+        </p>
+        <p>
+          예시) I am a graduate student at XXX, working on side-channel analysis and implementation security of cryptographic schemes.
+        </p>
+      </section>
+
+      <!-- News -->
+      <section id="news" class="card section">
+        <h2>News</h2>
+        <ul class="timeline">
+          <li>
+            <span class="date">2026-03</span>
+            <span class="item">논문/프로젝트/수상 등 업데이트 1</span>
+          </li>
+          <li>
+            <span class="date">2026-02</span>
+            <span class="item">업데이트 2</span>
+          </li>
+        </ul>
+      </section>
+
+      <!-- Research Interests -->
+      <section id="interests" class="card section">
+        <h2>Research Interests</h2>
+        <ul class="tags">
+          <li>Side-Channel Analysis</li>
+          <li>Fault Injection</li>
+          <li>Post-Quantum Cryptography</li>
+          <li>Embedded Security</li>
+        </ul>
+        <p class="muted">원하면 2~3줄로 “현재 집중하는 주제”를 더 적어도 좋습니다.</p>
+      </section>
+
+      <!-- Education -->
+      <section id="education" class="card section">
+        <h2>Education</h2>
+        <ul class="list">
+          <li>
+            <div class="row">
+              <span class="strong">Korea University</span>
+              <span class="muted">2024–Present</span>
+            </div>
+            <div class="muted">M.S./Ph.D., School of Cybersecurity</div>
+          </li>
+          <li>
+            <div class="row">
+              <span class="strong">Your Previous University</span>
+              <span class="muted">2019–2024</span>
+            </div>
+            <div class="muted">B.S., Major</div>
+          </li>
+        </ul>
+      </section>
+
+      <!-- Publications -->
+      <section id="publications" class="card section">
+        <h2>Publications</h2>
+
+        <h3>Under Review</h3>
+        <ol class="pubs">
+          <li>
+            <span class="strong">Paper Title 1</span><br />
+            <span class="muted">Your Name, Coauthors</span><br />
+            <span class="muted">Submitted to: Journal/Conference, Year</span>
+          </li>
+        </ol>
+
+        <h3>International Journals &amp; Conferences</h3>
+        <ol class="pubs">
+          <li>
+            <span class="strong">Paper Title 2</span><br />
+            <span class="muted">Authors</span><br />
+            <span class="muted">Venue, Year. <a href="#" target="_blank" rel="noreferrer">PDF</a> · <a href="#" target="_blank" rel="noreferrer">Code</a></span>
+          </li>
+        </ol>
+
+        <h3>Domestic Journals &amp; Conferences</h3>
+        <ol class="pubs">
+          <li>
+            <span class="strong">논문 제목 3</span><br />
+            <span class="muted">저자</span><br />
+            <span class="muted">학회/저널, 연도</span>
+          </li>
+        </ol>
+      </section>
+
+      <!-- Patents -->
+      <section id="patents" class="card section">
+        <h2>Patents</h2>
+        <ul class="list">
+          <li>
+            <div class="row">
+              <span class="strong">Patent Title</span>
+              <span class="muted">Year</span>
+            </div>
+            <div class="muted">Application/Registration No., Inventors</div>
+          </li>
+        </ul>
+      </section>
+
+      <!-- Awards -->
+      <section id="awards" class="card section">
+        <h2>Awards</h2>
+        <ul class="list">
+          <li>
+            <div class="row">
+              <span class="strong">Award Name</span>
+              <span class="muted">Year</span>
+            </div>
+            <div class="muted">Organization / Brief description</div>
+          </li>
+        </ul>
+      </section>
+
+      <!-- Other Experience -->
+      <section id="experience" class="card section">
+        <h2>Other Experience</h2>
+        <ul class="list">
+          <li>
+            <div class="row">
+              <span class="strong">Intern / TA / Project</span>
+              <span class="muted">Year</span>
+            </div>
+            <div class="muted">What you did (1–2 lines)</div>
+          </li>
+        </ul>
+      </section>
+
+      <footer class="footer">
+        <span class="muted">© <span id="y"></span> Your Name</span>
+      </footer>
+    </section>
+  </main>
+
+  <script>
+    document.getElementById("y").textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
